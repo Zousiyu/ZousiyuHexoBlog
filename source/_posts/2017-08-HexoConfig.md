@@ -43,7 +43,8 @@ deploy:
   branch: [branch]
   message: [message]
 ```
-然后安装`hexo-deployer-git`插件。
+然后安装`hexo-deployer-git`插件。现在可以部署到GitHub个人页面了。
 ```
 npm install hexo-deployer-git --save
 ```
+**如果遇到秘钥问题，直接上github帮助页面[Connecting to GitHub with SSH - User Documentation](https://help.github.com/articles/connecting-to-github-with-ssh/)，不要瞎几把搜中文教程，都是半吊子。**
