@@ -33,3 +33,17 @@ menu:
 ```
 
 分类同理。
+
+# 部署
+由于穷也没有信仰，所以部署到GitHub。修改站点配置文件的部署选项为：
+```
+deploy:
+  type: git
+  repo: <repository url>
+  branch: [branch]
+  message: [message]
+```
+然后安装`hexo-deployer-git`插件。
+```
+npm install hexo-deployer-git --save
+```
