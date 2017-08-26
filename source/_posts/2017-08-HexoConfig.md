@@ -17,6 +17,7 @@ tags:
 - [HexoConfig](#hexoconfig)
     - [标签和分类页面的添加](#标签和分类页面的添加)
     - [部署](#部署)
+    - [插件列表](#插件列表)
 
 <!-- /TOC -->
 
@@ -67,3 +68,10 @@ npm install hexo-deployer-git --save
 ```
 
 **如果遇到秘钥问题，直接上github帮助页面[Connecting to GitHub with SSH - User Documentation](https://help.github.com/articles/connecting-to-github-with-ssh/)，不要瞎几把搜中文教程，都是半吊子。**
+
+## 插件列表
+
+| 作用 | 安装|
+| ---- | ----|
+| github 部署 | npm install hexo-deployer-git --save |
+| 豆瓣读书和观影记录 | npm install hexo-douban --save |

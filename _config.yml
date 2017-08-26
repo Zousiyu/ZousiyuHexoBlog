@@ -80,3 +80,13 @@ deploy:
   type: git
   repo: git@github.com:Zousiyu/Zousiyu.github.io.git
   branch: master
+
+# 豆瓣读书和观影记录
+douban:
+  user: 70554016
+  book:
+    title: '读书'
+    quote: '静下心来，记录自己的生活！'
+  movie:
+    title: '观影'
+    quote: '静下心来，记录自己的生活！'
