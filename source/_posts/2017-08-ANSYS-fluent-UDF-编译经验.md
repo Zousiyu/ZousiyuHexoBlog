@@ -52,3 +52,9 @@ C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.1
 测试成功后，重启系统，ANSYS fluent重新读取环境变量后，能正常编译UDF，成功编译的输出消息如下。
 
 {% asset_img success_information.png "成功编译UDF" %}
+
+# 一点人生经验
+
+- 推荐个小工具，能很方便的配置环境变量[Rapid Environment Editor](https://www.rapidee.com/en/download)
+
+- 不要频繁升级你的Visual Studio，因为有很多路径和版本号相关，升级后需要重新配置环境变量到正确的路径。
